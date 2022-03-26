@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  tomcat-db-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+
+#version: '3'
+#
+#services:
+#
+#  tomcat-db-api:
+#    image: vasibackend
+#    ports:
+#      - "8080:8080"
