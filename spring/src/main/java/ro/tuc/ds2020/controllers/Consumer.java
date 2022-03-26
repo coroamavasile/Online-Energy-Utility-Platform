@@ -27,7 +27,7 @@ public class Consumer {
     @Bean
     private void receive() throws Exception{
         System.out.println("RECEIVER");
-        String uri = "amqps://iovzldyr:svuymVUONNm3kExwkHiGEmVV7-g5hQwc@rat.rmq2.cloudamqp.com/iovzldyr";
+        String uri = "URL TO AMQP";
         ConnectionFactory factory = new ConnectionFactory();
         factory.setUri(uri);
         factory.setConnectionTimeout(30000);
